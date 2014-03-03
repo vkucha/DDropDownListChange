@@ -1,0 +1,53 @@
+.DDropDownListChange-select-block{
+    display: inline-block;
+    position: relative;
+}
+
+.DDropDownListChange-select-block .ddd-select-item span.ddd-select-text{
+    display: block;
+    padding: 7px 25px 7px 10px;
+    background: url("../images/wide_dd.gif") right center no-repeat;
+    border: 1px solid #ccc;
+
+}
+
+.DDropDownListChange-select-block .ddd-select-item .ddd-hidden-select-item{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.DDropDownListChange-select-block .ddd-select-item .ddd-hidden-select-item{
+    border: 1px solid #ccc;
+
+}
+
+.DDropDownListChange-select-block .ddd-select-item .ddd-hidden-select-item ul{
+    list-style: none;
+}
+
+
+.DDropDownListChange-select-block .ddd-select-item .ddd-hidden-select-item ul li{
+    cursor: pointer;
+    padding: 5px 5px ;
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+
+.DDropDownListChange-select-block .ddd-select-item .ddd-hidden-select-item ul li.active{
+    background-color: #30A6BB;
+    color: #ffffff;
+}
+
+.DDropDownListChange-select-block .ddd-select-item .ddd-hidden-select-item ul li:hover{
+    background-color: #30A6BB;
+    color: #ffffff;
+}
+
+
+.DDropDownListChange-select{
+    display: none;
+}

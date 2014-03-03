@@ -1,0 +1,13 @@
+Додаток для зміни вигладу select
+v 0.1
+
+Встановлення
+1. Папку DDropDownListChange зберегти у папці extensions
+2. <?php $this->widget('ext.DDropDownListChange.DDropDownListChange', array(
+              'model'=>$model,  //Модель яку використовуємо
+              'data'=>$model->sex,  //Дані які будуть викоритовуватись
+              'id'=>'User_sex', // id поля
+              'attribute'=>'User[sex]', // атрибут поля
+              'width'=>'170px',  // Ширина поля (стандартно 200px)
+              'dataArray'=>array(''=>Yii::t('main', '- Выбрать пол -'), '1'=>Yii::t('main', 'мужской'), '2'=>Yii::t('main', 'женский')),
+          )); ?>
