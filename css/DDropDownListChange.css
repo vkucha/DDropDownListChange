@@ -8,13 +8,22 @@
     padding: 7px 25px 7px 10px;
     background: url("../images/wide_dd.gif") right center no-repeat;
     border: 1px solid #ccc;
+    z-index: 10;
+}
 
+.error .DDropDownListChange-select-block .ddd-select-item span.ddd-select-text{
+    display: block;
+    padding: 7px 25px 7px 10px;
+    background: url("../images/wide_dd.gif") right center no-repeat;
+    border: 1px solid red;
+    z-index: 10;
 }
 
 .DDropDownListChange-select-block .ddd-select-item .ddd-hidden-select-item{
     display: none;
     position: absolute;
     background-color: #ffffff;
+    z-index: 100;
 }
 
 .DDropDownListChange-select-block .ddd-select-item .ddd-hidden-select-item{
