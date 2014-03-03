@@ -7,7 +7,7 @@
 <div class="DDropDownListChange-select-block" style="width: <?=$width?>;">
     <div class="ddd-select-item">
         <span class="ddd-select-text" data=""></span>
-        <div class="ddd-hidden-select-item"  style="width: <?=$width?>;">
+        <div class="ddd-hidden-select-item"  style="width: <?=$width?>; max-height: <?=$height?>; overflow: <?=$scroll?>;">
             <ul>
 
             </ul>

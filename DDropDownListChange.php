@@ -8,6 +8,8 @@ class DDropDownListChange extends CWidget {
     public $attribute;
     public $id;
     public $width = '200px';
+    public $height = '150px';
+    public $scroll = 'auto';
 
     public function init(){
 
@@ -23,10 +25,6 @@ class DDropDownListChange extends CWidget {
         $script->registerCssFile($assets.'/css/DDropDownListChange.css');
 
 
-
-
-
-
         $this->render('ddropDownListChange', array(
             'model'=>$this->model,
             'data'=>$this->data,
@@ -34,6 +32,8 @@ class DDropDownListChange extends CWidget {
             'id'=>$this->id,
             'width'=>$this->width,
             'dataArray'=>$this->dataArray,
+            'height'=>$this->height,
+            'scroll'=>$this->scroll,
         ));
 
     }

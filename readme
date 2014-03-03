@@ -9,5 +9,7 @@ v 0.2
               'id'=>'User_sex', // id поля
               'attribute'=>'User[sex]', // атрибут поля
               'width'=>'170px',  // Ширина поля (стандартно 200px)
+              'height'=>'170px',  // Высота поля (стандартно 150px)
+              'scroll'=>'auto',  // Згідно css overflow
               'dataArray'=>array(''=>Yii::t('main', '- Выбрать пол -'), '1'=>Yii::t('main', 'мужской'), '2'=>Yii::t('main', 'женский')),
           )); ?>
